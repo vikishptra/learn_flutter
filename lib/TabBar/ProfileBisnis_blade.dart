@@ -10,41 +10,41 @@ class ProfileBisnis extends StatelessWidget {
         padding: EdgeInsets.only(top: 10),
         child: Column(
           children: [
-            new BusineesContainer(
+            BusineesContainer(
                 icon: Icons.add_business,
                 judul: "Profile bisnis",
                 deskripsi: "Mengelola alamat, jam kerja dan situs web"),
-            new BusineesContainer(
+            BusineesContainer(
                 icon: Icons.apps,
                 judul: "Katalog",
                 deskripsi: "Menampilkan produk dan layanan"),
             Padding(padding: EdgeInsets.only(top: 5)),
-            new DividerBusinees(),
+            DividerBusinees(),
             Padding(padding: EdgeInsets.only(top: 5)),
-            new Deskripsi(text: "Jangkauan lebih banyak pelanggan"),
-            new BusineesContainer(
+            Deskripsi(text: "Jangkauan lebih banyak pelanggan"),
+            BusineesContainer(
                 icon: Icons.campaign,
                 judul: "Iklankan di Facebook",
                 deskripsi:
                     "Membuat iklan yang mengarahkan pelanggan ke WhatsApp"),
-            new BusineesContainer(
+            BusineesContainer(
                 icon: Icons.link,
                 judul: "Facebook & Instagram",
                 deskripsi: "Menambahkan WhatsApp ke akun anda"),
             Padding(padding: EdgeInsets.only(top: 10)),
-            new DividerBusinees(),
+            DividerBusinees(),
             Padding(padding: EdgeInsets.only(top: 5)),
-            new Deskripsi(text: "Fitur perpesanan"),
+            Deskripsi(text: "Fitur perpesanan"),
             Padding(padding: EdgeInsets.only(top: 5)),
-            new BusineesContainer(
+            BusineesContainer(
                 icon: Icons.tag_faces,
                 judul: "Salam",
                 deskripsi: "Menyambung pelanggan baru secara otomatis"),
-            new BusineesContainer(
+            BusineesContainer(
                 icon: Icons.beach_access,
                 judul: "Pesan di luar jam kerja",
                 deskripsi: "Membalas pesan secara otomatis"),
-            new BusineesContainer(
+            BusineesContainer(
                 icon: Icons.electric_bolt,
                 judul: "Balas cepat",
                 deskripsi: "Menggunakan kembali pesan yang sering di kirim"),

@@ -67,6 +67,9 @@ class _HomeAppState extends State<HomeApp> with SingleTickerProviderStateMixin {
           )
         ],
         bottom: new TabBar(
+          labelColor: Color.fromARGB(255, 151, 247, 154),
+          unselectedLabelColor: Colors.white,
+          indicatorColor: Color.fromARGB(255, 152, 250, 155),
           controller: _controller,
           tabs: [
             new Tab(
@@ -76,7 +79,7 @@ class _HomeAppState extends State<HomeApp> with SingleTickerProviderStateMixin {
               icon: Icon(Icons.chat),
             ),
             new Tab(
-              icon: Icon(Icons.restore),
+              icon: Icon(Icons.autorenew_outlined),
             ),
             new Tab(
               icon: Icon(Icons.call),
